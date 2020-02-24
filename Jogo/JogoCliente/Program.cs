@@ -1,4 +1,4 @@
-﻿namespace Jogo
+﻿namespace JogoCliente
 {
     internal class Program
     {

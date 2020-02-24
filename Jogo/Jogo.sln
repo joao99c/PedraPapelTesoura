@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jogo", "Jogo.csproj", "{82A2722A-F71E-411B-97E4-45B19EF5AFD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoServer", "JogoServer\JogoServer.csproj", "{5D645C06-D63E-4BBB-818F-8951CF35E1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoCliente", "JogoCliente\JogoCliente.csproj", "{F9F3686F-903E-44D1-9880-1892D20A97DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedraPapelTesoura.Model", "PedraPapelTesoura.Model\PedraPapelTesoura.Model.csproj", "{70702788-0696-4668-A2C8-F0B29167F463}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +12,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{82A2722A-F71E-411B-97E4-45B19EF5AFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82A2722A-F71E-411B-97E4-45B19EF5AFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82A2722A-F71E-411B-97E4-45B19EF5AFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82A2722A-F71E-411B-97E4-45B19EF5AFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D645C06-D63E-4BBB-818F-8951CF35E1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D645C06-D63E-4BBB-818F-8951CF35E1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D645C06-D63E-4BBB-818F-8951CF35E1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D645C06-D63E-4BBB-818F-8951CF35E1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F3686F-903E-44D1-9880-1892D20A97DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F3686F-903E-44D1-9880-1892D20A97DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F3686F-903E-44D1-9880-1892D20A97DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F3686F-903E-44D1-9880-1892D20A97DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70702788-0696-4668-A2C8-F0B29167F463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70702788-0696-4668-A2C8-F0B29167F463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70702788-0696-4668-A2C8-F0B29167F463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70702788-0696-4668-A2C8-F0B29167F463}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
