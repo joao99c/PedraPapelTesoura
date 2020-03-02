@@ -1,9 +1,16 @@
-﻿namespace JogoCliente
+﻿using System.Threading.Tasks;
+using JogoCliente.Controllers;
+
+namespace JogoCliente
 {
     internal class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
+            ClientController clientController = new ClientController();
+            await clientController.Start();
         }
     }
+
+  
 }

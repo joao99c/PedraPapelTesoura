@@ -38,8 +38,10 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Controllers\ClientController.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Settings\ClientSettings.cs" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\PedraPapelTesoura.Model\PedraPapelTesoura.Model.csproj">
